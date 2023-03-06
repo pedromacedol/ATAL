@@ -58,7 +58,42 @@ Para a realizar a prova por indução deve ser demonstrado os seguindo os seguin
   
   - Princípio: Condição estabelecida para um determinado objeto.
   - Passo Base: Verifica se a proposição F(1) é verdadeiro para F(n).
-  - Passo indutivo: Tendo que F(n) é verdadeiro, deve ser verificado se F(n+1) é verdadeiro para a condição estabelecida no princípio
- 
+  - Passo indutivo: Tendo que F(k) é verdadeiro, deve ser verificado se F(k+1) é verdadeiro para a condição estabelecida no princípio
+  
+Exemplo:  
+
+- Principio:
+
+  $1+3+5+...+2n-1=n²,∀ n$
+
+- Passo Base -> $P(1)$:
+
+  $1 = 1²$ 
+  
+  $1 = 1$, portanto verdade. 
+  
+- Passo Indutivo:
+
+  Iremos estabelecer $P(k)$, para $P(n)$
+  
+  $P(k)$ 
+  
+  $1+3+5+...+ 2k-1=k²$ 
+  
+  A partir disso, podemos verificar $P(k+1)$
+  
+  $P(k+1)$ 
+  
+  $P(k) + 2(k+1)-1= (k+1)²$ 
+  
+  $k² + 2(k+1)-1= (k+1)²$ 
+  
+  $k² + 2k + 2 - 1= k² + 2k + 1$ 
+  
+  $k² + 2k + 1 = k² + 2k + 1$
+  
+  Portanto a implicação é verdadeira para $P(k) -> P(k+1)$
+  
+___
 ### Invariante de Laço 
 
