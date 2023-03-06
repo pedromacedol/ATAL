@@ -56,9 +56,9 @@ A prova por indução é utilizada para provar a verdade de um número infinito 
 
 Para a realizar a prova por indução deve ser demonstrado os seguindo os seguintes conceitos:
   
-  -> Princípio: Condição estabelecida para um determinado objeto.
-  -> Passo Base: Verifica se a proposição F(1) é verdadeiro para F(n).
-  -> Passo indutivo: Tendo que F(n) é verdadeiro, deve ser verificado se F(n+1) é verdadeiro para a condição estabelecida no princípio
+  - Princípio: Condição estabelecida para um determinado objeto.
+  - Passo Base: Verifica se a proposição F(1) é verdadeiro para F(n).
+  - Passo indutivo: Tendo que F(n) é verdadeiro, deve ser verificado se F(n+1) é verdadeiro para a condição estabelecida no princípio
  
 ### Invariante de Laço 
 
