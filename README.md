@@ -46,7 +46,6 @@ No exemplo acima, podemos afirma que o algoritmo está correto para o valor 0 na
   - Teste de algoritmos recursivos
   
  
- 
 ### Prova por indução
 
 A prova por indução é utilizada para provar a verdade de um número infinito de proposições. Sendo possível provar os seguintes objetos discretos:
@@ -94,6 +93,5 @@ Exemplo:
   
   Portanto a implicação é verdadeira para $P(k) -> P(k+1)$
   
-___
 ### Invariante de Laço 
 
