@@ -49,11 +49,16 @@ No exemplo acima, podemos afirma que o algoritmo está correto para o valor 0 na
  
 #### Prova por indução
 
-Na prova por indução é utilizada para provar a verdade de um número infinito de proposições. Sendo possível provar os seguintes objetos discretos:
+A prova por indução é utilizada para provar a verdade de um número infinito de proposições. Sendo possível provar os seguintes objetos discretos:
   - Inequações
   - Complexidade de algoritmos
   - Teoremas sobre grafos e árvores
 
+Para a realizar a prova por indução deve ser demonstrado os seguindo os seguintes conceitos:
   
+  -> Princípio: Condição estabelecida para um determinado objeto.
   
+  -> Passo Base: Verifica se a proposição F(1) é verdadeiro para F(n).
+ 
+  -> Passo indutivo: Tendo que F(n) é verdadeiro, deve ser verificado se F(n+1) é verdadeiro para a condição estabelecida no princípio
  
