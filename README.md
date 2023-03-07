@@ -55,3 +55,30 @@ A Complexidade de Algoritmos é a formar de analisarmos qual código é mais efi
 
 ![big_o](https://user-images.githubusercontent.com/36522521/223293671-d816e9aa-a1d8-40a7-a94e-2aad51861551.png)
 
+- O (1): 
+  
+  Algoritmo tem complexidade constante, porque independente do tamanho da entrada o tempo de execução do código permanece o mesmo. 
+
+ ```
+  n = int(input())
+  if n > 0:
+    print(“Valor positivo”)
+  elif n <  0:
+    print(“Valor negativo”)
+  else:
+    print(“Valor nulo”)
+ ```
+ 
+- O (n): Algoritmo 
+- O (log n)
+
+  Algoritmo tem complexidade log n, porque reduz o tamanho de uma entrada em pedaços menores. No caso abaixo temos um array de tamanho 4 e utilizamos o for para pecorrer ele retornando cada elemento, ou seja, pecorremos o laço 4 vezes e n**4 = n^$. 
+ 
+
+ ```
+  data = [10,32,40,99]
+  for index in range(0, len(data)):
+    print(data[index])
+ ```
+ 
+- O (n*n)
