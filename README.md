@@ -45,53 +45,13 @@ No exemplo acima, podemos afirma que o algoritmo está correto para o valor 0 na
   - Invariante de Laço
   - Teste de algoritmos recursivos
   
- 
-### Prova por indução
 
-A prova por indução é utilizada para provar a verdade de um número infinito de proposições. Sendo possível provar os seguintes objetos discretos:
-  - Inequações
-  - Complexidade de algoritmos
-  - Teoremas sobre grafos e árvores
+___
 
-Para a realizar a prova por indução deve ser demonstrado os seguindo os seguintes conceitos:
-  
-  - Princípio: Condição estabelecida para um determinado objeto.
-  - Passo Base: Verifica se a proposição F(1) é verdadeiro para F(n).
-  - Passo indutivo: Tendo que F(k) é verdadeiro, deve ser verificado se F(k+1) é verdadeiro para a condição estabelecida no princípio
-  
-Exemplo:  
+### **Complexidade de Algoritmos**
+A Complexidade de Algoritmos é a formar de analisarmos qual código é mais eficaz para determinado problema.
 
-- Principio:
+#### Big O
 
-  $1+3+5+...+2n-1=n²,∀ n$
-
-- Passo Base -> $P(1)$:
-
-  $1 = 1²$ 
-  
-  $1 = 1$, portanto verdade. 
-  
-- Passo Indutivo:
-
-  Iremos estabelecer $P(k)$, para $P(n)$
-  
-  $P(k)$ 
-  
-  $1+3+5+...+ 2k-1=k²$ 
-  
-  A partir disso, podemos verificar $P(k+1)$
-  
-  $P(k+1)$ 
-  
-  $P(k) + 2(k+1)-1= (k+1)²$ 
-  
-  $k² + 2(k+1)-1= (k+1)²$ 
-  
-  $k² + 2k + 2 - 1= k² + 2k + 1$ 
-  
-  $k² + 2k + 1 = k² + 2k + 1$
-  
-  Portanto a implicação é verdadeira para $P(k) -> P(k+1)$
-  
-### Invariante de Laço 
+![big_o](https://user-images.githubusercontent.com/36522521/223293671-d816e9aa-a1d8-40a7-a94e-2aad51861551.png)
 
